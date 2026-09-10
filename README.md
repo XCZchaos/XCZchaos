@@ -1,106 +1,129 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,50:2176FF,100:7A5CFF&height=210&section=header&text=Yibo%20Xiong&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Building%20intelligent%20tools%20for%20biosignals&descAlignY=60&animation=fadeIn" alt="Yibo Xiong profile header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00E6B8,45:1677FF,100:845EF7&height=220&section=header&text=XCZchaos&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=aka%20eborn%20%C2%B7%20Code%20%2B%20Signals%20%2B%20Agents&descSize=17&descAlignY=58&animation=twinkling" alt="XCZchaos animated profile header" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=38D9C4&center=true&vCenter=true&width=760&lines=Wearable+Biosignal+Algorithm+Engineer;Building+NeuroFlow+with+Go+and+AI+Agents;EEG+%7C+fNIRS+%7C+Multimodal+Signals;Open+to+Open-Source+Collaboration" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=650&size=23&duration=2400&pause=700&color=38E8C6&center=true&vCenter=true&repeat=true&random=false&width=820&height=55&lines=Building+intelligent+tools+for+biosignals;Developing+NeuroFlow+with+Go+%2B+AI+Agents;EEG+%C2%B7+fNIRS+%C2%B7+EMG+%C2%B7+Multimodal+Computing;Open+Source+%C2%B7+BCI+%C2%B7+Build+Together" alt="Animated developer introduction" />
 </a>
 
 <p>
-  <a href="https://xczchaos.github.io/"><img src="https://img.shields.io/badge/Portfolio-Visit-00C9A7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://github.com/XCZchaos/NeuroFlow"><img src="https://img.shields.io/badge/NeuroFlow-Open%20Source-2176FF?style=for-the-badge&logo=github&logoColor=white" alt="NeuroFlow" /></a>
-  <a href="mailto:asherxiong552@gmail.com"><img src="https://img.shields.io/badge/Email-Collaborate-7A5CFF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://xczchaos.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-00C9A7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/XCZchaos/NeuroFlow"><img src="https://img.shields.io/badge/NEUROFLOW-1677FF?style=for-the-badge&logo=github&logoColor=white" alt="NeuroFlow" /></a>
+  <a href="mailto:asherxiong552@gmail.com"><img src="https://img.shields.io/badge/COLLABORATE-845EF7?style=for-the-badge&logo=gmail&logoColor=white" alt="Collaborate by email" /></a>
+  <img src="https://komarev.com/ghpvc/?username=XCZchaos&style=for-the-badge&color=0EAD98&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
+<img width="94%" src="./assets/neuroflow-signal.svg" alt="Animated NeuroFlow biosignal pipeline" />
+
 </div>
 
-## 👋 About Me
+## `> whoami`
 
-I build practical systems around **wearable biosignals, multimodal signal processing, and AI Agents**.
+```yaml
+alias: eborn
+focus: wearable biosignals · multimodal computing · AI Agents
+building: NeuroFlow
+principles: local-first · deterministic tools · explainable results
+status: open to BCI, research, engineering, and open-source collaboration
+```
 
-- 🧠 Working with EEG, fNIRS, EMG, ECG, PPG, and motion signals
-- 🛠️ Turning signal-processing algorithms into reusable tools, SDKs, and desktop workflows
-- 🤖 Exploring reliable Agent orchestration for scientific data analysis
-- 🔒 Interested in local-first, explainable, and reproducible neurotechnology
-- 🤝 Open to BCI competitions, open-source contributions, and research collaboration
+I build systems that connect **physiological signals, dependable algorithms, and usable software**—from data inspection and preprocessing to Agent orchestration, real-time interfaces, and reproducible analysis workflows.
 
-## 🚀 Currently Building
+## `> current_project --featured`
 
-<table>
-  <tr>
-    <td width="70%">
-      <h3><a href="https://github.com/XCZchaos/NeuroFlow">NeuroFlow</a></h3>
-      <p>An intelligent Agent workspace for neurophysiological signal research. NeuroFlow organizes local data inspection, analysis planning, deterministic tool execution, quality review, and report generation into an explainable workflow.</p>
-      <p><strong>Available:</strong> local dataset inspection · ReAct Agent · RAG retrieval · structured preprocessing drafts · SSE streaming</p>
-      <p><strong>Next:</strong> EEG/EMG analysis tools · multimodal Agents · public-dataset benchmarks · automatic reports</p>
-    </td>
-    <td width="30%" align="center">
-      <a href="https://github.com/XCZchaos/NeuroFlow">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=XCZchaos&repo=NeuroFlow&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="NeuroFlow repository card" />
-      </a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://github.com/XCZchaos/NeuroFlow">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=XCZchaos&repo=NeuroFlow&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38E8C6&icon_color=845EF7" alt="NeuroFlow repository card" />
+  </a>
+</div>
 
-## 🧰 Technology Stack
+### ⚡ NeuroFlow
+
+An intelligent workspace for neurophysiological signal research, connecting **local dataset inspection → Agent planning → deterministic tools → quality review → reproducible reports**.
+
+| Layer | Current implementation |
+|---|---|
+| 🖥️ Workspace | Electron desktop application and local-first data flow |
+| 🧠 Neurodata | Python + MNE dataset inspection for EEG, MEG, and fNIRS |
+| 🤖 Agent | Go, Gin, CloudWeGo Eino, ReAct, and structured tool calling |
+| 📚 Knowledge | Ollama embeddings, Qdrant, and domain RAG |
+| 🌊 Interaction | Multi-turn dataset context and SSE streaming responses |
+| 🚧 Next | EEG/EMG tools, multimodal Agents, benchmarks, and reports |
+
+<div align="center">
+  <a href="https://github.com/XCZchaos/NeuroFlow"><img src="https://img.shields.io/badge/Explore_the_repository-0D1117?style=for-the-badge&logo=github&logoColor=38E8C6" alt="Explore NeuroFlow" /></a>
+  <a href="https://github.com/XCZchaos/NeuroFlow/issues"><img src="https://img.shields.io/badge/Join_via_Issues-0D1117?style=for-the-badge&logo=githubissues&logoColor=845EF7" alt="Join NeuroFlow through issues" /></a>
+</div>
+
+## `> stack --visual`
 
 <div align="center">
 
-### Languages & Machine Learning
+#### Core Languages & AI
 
-<img src="https://skillicons.dev/icons?i=python,go,cpp,c,java,ts,js,pytorch&theme=dark&perline=8" alt="Languages and machine learning tools" />
+<img src="https://skillicons.dev/icons?i=python,go,cpp,c,java,ts,js,pytorch&theme=dark&perline=8" alt="Core languages and AI stack" />
 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-Machine%20Learning-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-Scientific%20Computing-0076A8?style=flat-square)
+#### Engineering
 
-### Systems & Product Engineering
+<img src="https://skillicons.dev/icons?i=nodejs,electron,vue,react,cmake,gradle,docker,mysql,git,github,vscode&theme=dark&perline=11" alt="Engineering stack" />
 
-<img src="https://skillicons.dev/icons?i=nodejs,electron,vue,react,cmake,gradle,docker,mysql,git,github,vscode&theme=dark&perline=11" alt="Systems and product engineering tools" />
+#### Signal & Agent Toolkit
 
-### Biosignal & Agent Ecosystem
-
-![EEG](https://img.shields.io/badge/EEG-Signal%20Processing-00C9A7?style=flat-square)
-![fNIRS](https://img.shields.io/badge/fNIRS-Hemodynamics-2176FF?style=flat-square)
-![MNE](https://img.shields.io/badge/MNE--Python-Neurodata-7A5CFF?style=flat-square)
-![Eino](https://img.shields.io/badge/Eino-AI%20Agent-5B5BD6?style=flat-square)
-![Qdrant](https://img.shields.io/badge/Qdrant-Vector%20DB-DC244C?style=flat-square)
-![LSL](https://img.shields.io/badge/LSL-Real--time%20Streams-F59E0B?style=flat-square)
+![EEG](https://img.shields.io/badge/EEG-Signal_Processing-00C9A7?style=flat-square)
+![fNIRS](https://img.shields.io/badge/fNIRS-Hemodynamics-1677FF?style=flat-square)
+![EMG](https://img.shields.io/badge/EMG-Neuromuscular_Signals-F59E0B?style=flat-square)
+![MNE](https://img.shields.io/badge/MNE--Python-Neurodata-845EF7?style=flat-square)
+![Eino](https://img.shields.io/badge/Eino-Agent_Framework-5B5BD6?style=flat-square)
+![Qdrant](https://img.shields.io/badge/Qdrant-Vector_DB-DC244C?style=flat-square)
+![LSL](https://img.shields.io/badge/LSL-Real--time_Streams-2F9E44?style=flat-square)
 
 </div>
 
-## 📊 GitHub Activity
+## `> github --live`
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=XCZchaos&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&rank_icon=github" alt="GitHub statistics" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=XCZchaos&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" alt="Most used languages" />
+  <img height="172" src="https://github-readme-stats.vercel.app/api?username=XCZchaos&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38E8C6&icon_color=845EF7&rank_icon=github" alt="Live GitHub statistics" />
+  <img height="172" src="https://streak-stats.demolab.com?user=XCZchaos&theme=tokyonight&hide_border=true&background=0D1117&ring=38E8C6&fire=845EF7&currStreakLabel=38E8C6" alt="GitHub contribution streak" />
 </div>
 
 <div align="center">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=XCZchaos&bg_color=0D1117&color=8B9DC3&line=38D9C4&point=7A5CFF&area=true&hide_border=true" alt="GitHub contribution activity graph" />
+  <img width="94%" src="https://github-readme-activity-graph.vercel.app/graph?username=XCZchaos&bg_color=0D1117&color=8B9DC3&line=38E8C6&point=845EF7&area=true&area_color=1677FF&hide_border=true&custom_title=Contribution%20Signal" alt="Live contribution activity graph" />
 </div>
+
+<details>
+  <summary><strong>📈 More live statistics</strong></summary>
+  <br />
+  <div align="center">
+    <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=XCZchaos&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38E8C6&langs_count=10" alt="Most used languages" />
+  </div>
+</details>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/XCZchaos/XCZchaos/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
+  <h3>Contribution stream</h3>
+  <img width="94%" src="https://raw.githubusercontent.com/XCZchaos/XCZchaos/output/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake" />
 </div>
 
-## 🤝 Open-Source Collaboration
+## `> collaborate --open`
 
-NeuroFlow is looking for contributors interested in:
+NeuroFlow welcomes contributors interested in:
 
 - deterministic EEG, EMG, and fNIRS processing tools
-- Agent workflows and structured tool interfaces
-- public biosignal dataset benchmarks
-- Electron desktop UI and scientific visualization
-- documentation, examples, testing, and reproducible workflows
+- Agent routing, planning, tool schemas, and result validation
+- public biosignal datasets and reproducible benchmarks
+- Electron desktop UX and scientific visualization
+- documentation, examples, automated checks, and engineering integration
 
-If any of these directions match your interests, feel free to open an Issue in [NeuroFlow](https://github.com/XCZchaos/NeuroFlow/issues) or [contact me by email](mailto:asherxiong552@gmail.com?subject=NeuroFlow%20Open%20Source%20Collaboration).
+<div align="center">
+  <a href="https://github.com/XCZchaos/NeuroFlow/issues"><img src="https://img.shields.io/badge/OPEN_AN_ISSUE-Let's_build_together-00C9A7?style=for-the-badge&logo=github" alt="Open a NeuroFlow issue" /></a>
+  <a href="mailto:asherxiong552@gmail.com?subject=NeuroFlow%20Open%20Source%20Collaboration"><img src="https://img.shields.io/badge/EMAIL-Start_a_conversation-845EF7?style=for-the-badge&logo=gmail&logoColor=white" alt="Start a collaboration conversation" /></a>
+</div>
 
 <div align="center">
 
-### Let's build useful, reliable tools for biosignal research.
+<br />
 
-![Profile views](https://komarev.com/ghpvc/?username=XCZchaos&style=for-the-badge&color=00C9A7)
+`Signal → Tool → Agent → Insight`
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,50:2176FF,100:7A5CFF&height=120&section=footer" alt="Profile footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00E6B8,45:1677FF,100:845EF7&height=125&section=footer&animation=twinkling" alt="Animated profile footer" />
 
 </div>
