@@ -33,7 +33,7 @@ I build systems that connect **physiological signals, dependable algorithms, and
 
 <div align="center">
   <a href="https://github.com/XCZchaos/NeuroFlow">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=XCZchaos&repo=NeuroFlow&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38E8C6&icon_color=845EF7" alt="NeuroFlow repository card" />
+    <img width="82%" src="./assets/neuroflow-card.svg" alt="NeuroFlow repository card" />
   </a>
 </div>
 
@@ -82,25 +82,12 @@ An intelligent workspace for neurophysiological signal research, connecting **lo
 ## `> github --live`
 
 <div align="center">
-  <img height="172" src="https://github-readme-stats.vercel.app/api?username=XCZchaos&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38E8C6&icon_color=845EF7&rank_icon=github" alt="Live GitHub statistics" />
-  <img height="172" src="https://streak-stats.demolab.com?user=XCZchaos&theme=tokyonight&hide_border=true&background=0D1117&ring=38E8C6&fire=845EF7&currStreakLabel=38E8C6" alt="GitHub contribution streak" />
+  <img width="62%" src="https://streak-stats.demolab.com?user=XCZchaos&theme=tokyonight&hide_border=true&background=0D1117&ring=38E8C6&fire=845EF7&currStreakLabel=38E8C6" alt="GitHub contribution streak" />
 </div>
-
-<div align="center">
-  <img width="94%" src="https://github-readme-activity-graph.vercel.app/graph?username=XCZchaos&bg_color=0D1117&color=8B9DC3&line=38E8C6&point=845EF7&area=true&area_color=1677FF&hide_border=true&custom_title=Contribution%20Signal" alt="Live contribution activity graph" />
-</div>
-
-<details>
-  <summary><strong>📈 More live statistics</strong></summary>
-  <br />
-  <div align="center">
-    <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=XCZchaos&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38E8C6&langs_count=10" alt="Most used languages" />
-  </div>
-</details>
 
 <div align="center">
   <h3>Contribution stream</h3>
-  <img width="94%" src="https://raw.githubusercontent.com/XCZchaos/XCZchaos/output/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake" />
+  <img width="94%" src="https://raw.githubusercontent.com/XCZchaos/XCZchaos/gh-pages/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake" />
 </div>
 
 ## `> collaborate --open`
