@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="230" viewBox="0 0 960 230" role="img" aria-labelledby="title desc">
+  <title id="title">NeuroFlow animated biosignal pipeline</title>
+  <desc id="desc">Animated EEG and fNIRS signals flowing through deterministic tools into an AI Agent.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="0.52" stop-color="#101827"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" x2="1">
+      <stop offset="0" stop-color="#00E6B8"/>
+      <stop offset="0.5" stop-color="#1677FF"/>
+      <stop offset="1" stop-color="#845EF7"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#23314A" stroke-width="1" opacity="0.45"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="958" height="228" rx="24" fill="url(#bg)" stroke="#263653"/>
+  <rect x="1" y="1" width="958" height="228" rx="24" fill="url(#grid)" opacity="0.72"/>
+
+  <text x="38" y="39" fill="#73819A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">LIVE BIOSIGNAL PIPELINE</text>
+  <circle cx="242" cy="35" r="4" fill="#00E6B8" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="3;6;3" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="40" y="94" fill="#38E8C6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700">EEG</text>
+  <path d="M88 89 C110 89 110 89 128 89 C143 89 145 61 157 61 C170 61 172 118 187 118 C201 118 204 75 220 75 C235 75 237 89 255 89 C274 89 277 89 296 89" fill="none" stroke="#38E8C6" stroke-width="3" stroke-linecap="round" stroke-dasharray="9 8" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-102" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+
+  <text x="40" y="164" fill="#55A0FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700">fNIRS</text>
+  <path d="M104 159 C130 136 155 182 182 159 S235 136 264 159 S315 181 342 159" fill="none" stroke="#55A0FF" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 8" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-108" dur="3.6s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="middle">
+    <rect x="382" y="62" width="150" height="108" rx="18" fill="#121E2F" stroke="#2C4A67"/>
+    <text x="457" y="96" fill="#38E8C6" font-size="11" letter-spacing="1.5">DETERMINISTIC</text>
+    <text x="457" y="120" fill="#F1F5F9" font-size="18" font-weight="700">TOOLS</text>
+    <text x="457" y="145" fill="#7F8DA6" font-size="10">inspect · process · validate</text>
+
+    <rect x="620" y="62" width="150" height="108" rx="18" fill="#171A32" stroke="#53469A"/>
+    <text x="695" y="96" fill="#A78BFA" font-size="11" letter-spacing="1.5">REACT</text>
+    <text x="695" y="120" fill="#F1F5F9" font-size="18" font-weight="700">AGENT</text>
+    <text x="695" y="145" fill="#7F8DA6" font-size="10">plan · route · explain</text>
+  </g>
+
+  <path d="M345 116H379" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 7">
+    <animate attributeName="stroke-dashoffset" from="0" to="-48" dur="1.4s" repeatCount="indefinite"/>
+  </path>
+  <path d="M534 116H617" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 8">
+    <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="1.7s" repeatCount="indefinite"/>
+  </path>
+  <path d="M773 116H845" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 8">
+    <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="1.7s" repeatCount="indefinite"/>
+  </path>
+
+  <g transform="translate(874 116)" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <circle r="42" fill="#111A29" stroke="url(#signal)" stroke-width="3" filter="url(#glow)">
+      <animate attributeName="stroke-width" values="2;5;2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="29" fill="none" stroke="#38E8C6" stroke-width="1.5" stroke-dasharray="5 6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <text y="-3" fill="#F1F5F9" font-size="13" font-weight="700">INSIGHT</text>
+    <text y="15" fill="#7F8DA6" font-size="9">reviewable</text>
+  </g>
+
+  <text x="480" y="205" fill="#52627C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="middle" letter-spacing="1.5">SIGNAL → TOOL → AGENT → INSIGHT</text>
+</svg>
